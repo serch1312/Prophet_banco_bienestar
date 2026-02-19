@@ -1,0 +1,28 @@
+# Base científica
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.11.4
+
+# Visualización
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Machine Learning
+scikit-learn==1.4.2
+
+# Deep Learning backend (requerido por NeuralProphet)
+torch==2.2.2
+pytorch-lightning==2.2.4
+
+# NeuralProphet (versión estable moderna)
+neuralprophet==0.6.2
+
+# Manejo de fechas y holidays
+holidays==0.34
+python-dateutil==2.9.0
+
+# Parquet
+pyarrow==15.0.2
+
+# Utilidades
+tqdm==4.66.4
