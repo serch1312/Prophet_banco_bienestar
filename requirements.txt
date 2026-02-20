@@ -1,3 +1,8 @@
+# ============================================================
+# REQUIREMENTS.TXT - NEURALPROPHET AMBIENTE TRABAJO
+# Python 3.11 compatible
+# ============================================================
+
 # Base numérica (COMPATIBLE con NeuralProphet)
 numpy==1.23.5
 scipy==1.11.4
@@ -14,7 +19,6 @@ scikit-learn==1.4.2
 
 # Backend deep learning (requerido por NeuralProphet)
 torch==1.13.1
-
 pytorch-lightning==1.9.5
 
 # NeuralProphet
@@ -24,9 +28,18 @@ neuralprophet==0.6.2
 holidays==0.21.13
 python-dateutil==2.9.0
 
-# Parquet
+# Parquet (para leer/escribir archivos .parquet)
 pyarrow==15.0.2
+fastparquet==2024.2.0
+
+# Excel (para leer/escribir .xlsx)
+openpyxl==3.1.2
+
+# Jupyter
+ipykernel==6.29.4
 
 # Utilidades
 tqdm==4.66.4
 
+# conda activate neuralprophet_trabajo
+# pip install -r requirements.txt
